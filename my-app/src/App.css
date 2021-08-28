@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.container__header {
+    text-align: center;
+    line-height: 100px;
+}
+.container {
+    /* background-color: red; */
+    width: 500px;
+    min-height: 0px;
+} 
+.list {
+    background-color: pink;
+    min-height: 50px;
+    border: 1px solid rgb(122, 113, 113);
+    margin: 5px 0px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+.list:hover {
+    transition: 0.5s;
+    background-color: rgba(255, 192, 203, 0.623);
+}
+.list span {
+    margin-left: 20px;
+}
